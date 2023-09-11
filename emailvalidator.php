@@ -54,7 +54,7 @@ class emailvalidator
     {
         $banned_domains = [];
        
-        $file = plugin_dir_path(self::MAIN_FILE).'banned-domains.php';
+        $file = './banned-domains.php';
 
         if (!file_exists($file) OR (file_exists($file) AND filemtime($file) < strtotime('-1 month'))) {
             // If the file doesn't exist or is older than a month, regenerate it
