@@ -10,7 +10,7 @@ Using our class emailvalidator.php
     emailvalidator::check('some@email.com');
 
 ## Install
-You will need at least php 5.5
+You will need at least php 8
 
  1. [Download here](https://github.com/neo22s/emailvalidator/archive/master.zip)
  2. uncompress in any web server
